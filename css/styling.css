@@ -13,11 +13,14 @@ body {
 
 #page {
 	width: 710px;
-	height: 450px;
+	height: 400px;
 	background-color: white;
 	margin: 10px auto;
 	border: 2px solid black;
-	padding: 10px; }
+	padding: 10px; 
+	
+}
+
 
 #banner {
     margin-bottom: 1em;
@@ -40,12 +43,14 @@ body {
 	height: 370px;
 	background-color: white;
 	margin-bottom: .7em;
-	float: left; }
+	float: left;
+
+ }
 
 #sidebar img{
 	height: 350px;
 	width: 150px;
-	margin-top: 30px;
+
 }
 
 .copyright {
@@ -69,10 +74,13 @@ h3 {
 
 }
 
-td, th {
+table, td, th {
 	border: 1px solid black;
 	padding: .2em .7em;
-	font-size: 95%; }	
+	font-size: 95%; 
+	border-collapse: collapse;
+}
+
 
 input{
 	width: 70px;
@@ -87,8 +95,23 @@ button{
 
 
 footer{
-	margin: 5em;
+	margin-top: 5em;
 	border-top: 2px solid gray;
 	padding-top: 7em;
+	position: fixed;
+	bottom: 120px;
+	clear: left;
+	width: 50%;
+	left: 350px;
+
+}
+
+.rightsReserved{
+	position: relative;
+	bottom: 100px;
+	margin-left:240px ;
+	left: 200px;
+	
+
 }
 /* Akhona Mjikelo */
